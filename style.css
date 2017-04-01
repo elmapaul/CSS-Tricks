@@ -1,0 +1,119 @@
+  /********************** ROTATION EFFECT *************************************/
+  .rotate {
+    margin: 100px 100px;
+    width: 200px;
+    height: 100px;
+    background: #000;
+    color: #7FFF00;
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 3.5em;
+    text-align: center;
+    line-height: 100px;
+    transition: all 0.9s ease;
+  }
+  
+  .rotate:hover {
+    -webkit-transform: rotateZ(-180deg);
+    -ms-transform: rotateZ(-180deg);
+    transform: rotateZ(-180deg);
+  }
+  /********************** MAXIMIZATION EFFECT *************************************/
+  .scalemaxmin {
+    margin: 100px 100px;
+    width: 200px;
+    height: 100px;
+    background: #000;
+    color: #7FFF00;
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 3.5em;
+    text-align: center;
+    line-height: 100px;
+    transition: all 0.5s ease;
+  }
+    .scalemaxmin:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  /********************** SWAYING LEFT-RIGTHS EFFECT ****************************/
+.swaying {
+  margin: 100px 100px;
+  width: 250px;
+  height: 100px;
+  background: #000;
+  color: #7FFF00;
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 3.5em;
+  text-align: center;
+  line-height: 100px;
+  transition: all 0.5s ease;
+}
+
+@keyframes swing {
+  15% {
+    transform: translateX(5px);
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  65% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.swaying:hover {
+  animation: swing 1.5s ease;
+  animation-iteration-count: 1;
+}
+  /********************** CIRCLE ANGLES EFFECT ******************************/
+body > div {
+  margin: 100px 100px;
+  width: 350px;
+  height: 100px;
+  background: #000;
+  color: #7FFF00;
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 3.5em;
+  text-align: center;
+  line-height: 100px;
+  transition: all 0.5s ease;
+}
+
+.circle:hover {
+  border-radius: 100%;
+}
+  /********************** OPACITY EFFECT *************************************/
+body > div {
+  margin: 100px 100px;
+  width: 350px;
+  height: 100px;
+  background: #000;
+  color: #7FFF00;
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 3.5em;
+  text-align: center;
+  line-height: 100px;
+  transition: all 0.5s ease;
+}
+
+.fade {
+  opacity: 0.2;
+}
+
+.fade:hover {
+  opacity: 1;
+}
