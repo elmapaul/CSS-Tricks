@@ -1,6 +1,6 @@
 # Collection of CSS-Tricks
 
-[ collection Updated: 05/04/17]
+[ Collection from cssdesk.com Updated: 05/04/17]
 https://codepen.io/Elmatsidis/
 
 [ collection ]
